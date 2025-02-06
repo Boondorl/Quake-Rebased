@@ -1,0 +1,27 @@
+#output "../progs.dat"
+
+#pragma autoproto
+#pragma optimise 2
+//#pragam flag enable 
+
+// Mandatory files. Order of these should remain untouched
+#includelist
+	core/predef.qc
+	core/system.qc
+	core/constants.qc
+	core/text.qc
+	core/fields.qc
+	core/builtins.qc
+	core/math.qc
+	core/helper.qc
+	//core/serializing.qc
+	//core/combat.qc
+	//core/compat.qc // Extended vanilla hack support (don't use these anymore)
+#endlist
+
+#includelist
+	server/info.qc
+	server/world.qc
+	//server/client.qc
+	server/map.qc
+#endlist
